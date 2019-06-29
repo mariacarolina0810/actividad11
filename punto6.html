@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <style>
+        ol {
+            counter-reset: numeros
+        }
+        li {
+            display: block;
+            color: blue;
+        }
+        li:before {
+            content: counters(numeros, ".") " ";
+            counter-increment: numeros;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>General reference</li>
+        <li>Culture and the arls
+            <ol>
+                <li>Literature</li>
+                <li>Mythology</li>
+                <li>Art and the arts
+                    <ol>
+                        <li>Performing arts</li>
+                        <li>Visual arts</li>
+                    </ol>
+                </li>
+                <li>Enfertainment and recreation
+                    <ol>
+                        <li>Games</li>
+                        <li>Sports</li>
+                    </ol>
+                </li> 
+                <li>Food and drink</li>  
+                <li>Mass media</li>
+            </ol>
+        </li>
+        <li>Geography and places
+           <ol>
+             <li>Natural geographical features
+                 <ol>  
+                     <li>Landforms</li>
+                    <li>Bodies of water</li>
+                </ol>
+             </li>
+             <li>Manmade geographical features
+                 <ol>  
+                   <li>Countries and regions</li>
+                    <li>Places</li>
+                    <li>Settlements</li>
+                </ol>
+             </li>
+               </ol>
+        </li>
+        <li>History and events</li>   
+        <li>Mathematics and logic</li>  
+        <li>Natural an physical siences
+            <ol>
+                <li>Biologi</li>
+                <li>physical siences</li>
+            </ol>
+        </li>
+        <li>People</li>
+        <li>Religion and belief sistems</li>
+        <li>Society and social siences
+            <ol>
+                <li>Archaeology</li>
+                <li>Linguistics</li>
+                <li>Social institutions
+                    <ol>
+                        <li>Infraestructure</li>
+                        <li>Economic and business</li>
+                        <li>Education</li>
+                        <li>Government and politics</li>
+                        <li>Law</li>
+                    </ol>
+                  <li>War</li>  
+                </li>
+            </ol>
+        </li>
+         <li>Technology and applied siences
+             <ol>
+                 <li>Aerospace</li>
+                 <li>Buildings</li>
+                 <li>Energy</li>
+                 <li>Medicine</li>
+                 <li>Maritime</li>
+                 <li>Military</li>
+                 <li>Technology</li>
+             </ol>
+         </li> 
+         <li>Miscellaneous</li>  
+        
+    </ol>
+</body>
+</html>
